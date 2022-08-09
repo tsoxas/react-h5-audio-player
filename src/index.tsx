@@ -711,6 +711,7 @@ class H5AudioPlayer extends Component<PlayerProps> {
       loop: loopProp,
       preload,
       autoPlay,
+      muted,
       crossOrigin,
       mediaGroup,
       header,
@@ -746,6 +747,7 @@ class H5AudioPlayer extends Component<PlayerProps> {
           controls={false}
           loop={loop}
           autoPlay={autoPlay}
+          muted={muted}
           preload={preload}
           crossOrigin={crossOrigin}
           mediaGroup={mediaGroup}
