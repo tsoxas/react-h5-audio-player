@@ -578,6 +578,7 @@ class H5AudioPlayer extends Component<PlayerProps> {
 
     if (this.props.muted) {
       audio.volume = 0
+      audio.muted = true
     } else {
       audio.volume = this.lastVolume
     }
